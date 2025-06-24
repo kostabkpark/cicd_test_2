@@ -26,5 +26,5 @@ jobs:
           ls -al ./src/main/resources
           cat ./src/main/resources/applicaiton.yml
 
-  deploy-job:
-    runs-on: ubuntu-latest
+#  deploy-job:
+#    runs-on: ubuntu-latest
