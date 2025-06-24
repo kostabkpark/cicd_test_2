@@ -38,6 +38,7 @@ jobs:
           ls -al
 
   deploy-job:
+    needs: build-job
     runs-on: ubuntu-latest
 
     steps:
